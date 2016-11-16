@@ -2,8 +2,12 @@ package com.example.chnwo.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainjohnActivity extends AppCompatActivity {
+
+    //declare all widgets
+    private Button buttongo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

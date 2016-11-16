@@ -11,7 +11,7 @@
     tools:context="com.example.chnwo.myapplication.MainjohnActivity">
 
     <TextView
-        android:text="This is the first screen"
+        android:text="This is the second screen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="69dp"
@@ -19,4 +19,13 @@
         android:textSize="36sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="click to go to first screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:id="@+id/buttongo" />
 </RelativeLayout>
